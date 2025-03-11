@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+///29. Leia um nome e verifique se ele começa com a letra "A"
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner leitor = new Scanner(System.in);
+
+        System.out.print("Digite um nome: ");
+         String valorDigitado = leitor.next();
+
+         if (valorDigitado.startsWith("A")){
+                System.out.print("Começa com A");
+         } else {
+                System.out.print("Não começa com A");
+
+        }
+
+
+    }
+}
