@@ -1,0 +1,26 @@
+Main.java
+
+import java.util.Scanner;
+
+public  class Main {
+    public static void main(String[] args){
+        Pessoa novaPessoa = new Pessoa( "João");
+
+        Pessoa pessoa2 = new Pessoa();
+
+        System.out.printf("Nome: %s", novaPessoa.nome);
+    }
+}
+
+Pessoa.java
+
+public class Pessoa {
+    String nome;
+    int idade;
+    public Pessoa(){
+
+    }
+    public Pessoa(String nome){
+        this.nome = nome;
+    }
+}
